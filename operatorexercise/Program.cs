@@ -13,10 +13,10 @@ namespace operatorexercise
             var a = 17;
             var b = 4;
 
-            var div = a / b;
-            var mod = a % b;
+            var quotient = a / b;
+            var remainder = a % b;
 
-            Console.WriteLine($"{a}/{b} is {div} remander {mod}");
+            Console.WriteLine($"{a}/{b} is {quotient } remander {remainder }");
             //-----------------exercise 2---------------------//
 
             var r = 20;
