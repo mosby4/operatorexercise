@@ -18,13 +18,13 @@ namespace operatorexercise
 
             Console.WriteLine($"{a}/{b} is {quotient } remander {remainder }");
             //-----------------exercise 2---------------------//
-
-            var r = 20;
+            Console.WriteLine($"What is the radius of your circle?");
+            var radius = double.Parse(Console.ReadLine());
             var pi = Math.PI;
-
-            var areaOfcircle = pi *(r*r);
-
-            Console.WriteLine($"The area of a circle with radius of {r} is {areaOfcircle}");
+            var areaOfcircle = pi *(radius * radius);
+            Console.WriteLine();
+            
+            Console.WriteLine($"The area of a circle with radius of {radius} is {areaOfcircle}");
 
         }
     }
